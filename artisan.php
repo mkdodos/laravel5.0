@@ -1,6 +1,11 @@
 //加上 --plain 參數 建立空白 Controller (沒有任何 function)
 php artisan make:controller PhotoController --plain
 
+//網址和函數名稱對應
+users/admin-profile URI:
+
+public function getAdminProfile() {}
+
 
 
 
