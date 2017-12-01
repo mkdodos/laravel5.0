@@ -1,10 +1,15 @@
 //加上 --plain 參數 建立空白 Controller (沒有任何 function)
-php artisan make:controller PhotoController --plain
+php artisan make:controller UserController --plain
+
+//路由對應
+Route::controller('users', 'UserController');
 
 //網址和函數名稱對應
 users/admin-profile URI:
 
-public function getAdminProfile() {}
+class UserController extends Controller {
+  public function getAdminProfile() {}
+}
 
 
 
